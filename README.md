@@ -10,3 +10,6 @@
 
 ## To deploy resources to k8s
 `make deploy`
+
+## To test to reconciler
+`kubectl apply -f memcached_crd.yaml`
